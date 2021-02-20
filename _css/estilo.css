@@ -15,11 +15,11 @@ h1{
 
 /*========================================*/
 .header, .conteiner{
-	margin: auto;
+	background-color: #fff;
 	width: 30%;
+	margin: auto;	
 	border: solid;
-	border-radius: 30px;
-	background-color: white;
+	border-radius: 30px;	
 	padding: 20px;
 }
 .conteiner{
@@ -34,7 +34,7 @@ h1{
 }
 
 .blocos{
-	width: 80px;
-	border: solid ;
+	width: 80px;	
 	margin-bottom: 10px; /* coloquei pois os blocos ainda ficavam grudados*/
+	border: solid ;
 }
