@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang = 'pt-br'>
 	<head>
-		<title>php</title>
-		<link rel='stylesheet' type='text/css' href='_css/estilo.css'>
 		<meta charset="utf-8">
+		<meta name='author' content='Levi Alves'>
+		<meta name='description' content='aprendendo php'>
+		<meta name='robots' content='index, nofollow'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta http-equiv='X-UA-Compatible' name='ie=edige'>
+		<title>php</title>
+		<link rel='stylesheet' type='text/css' href='_css/estilo.css'>		
 	</head>
 	<body>
-		<div class='header'>
+		<header>
 			<h1> TABUADA </h1>
-		</div>
+		</header>
 
 		<div class='conteiner'>
-			<div class='principal'>
+			<section class='principal'>
 				
 				<?php
 					echo"<div class='bloco'>";
@@ -28,9 +33,9 @@
 					echo"</div>";	
 				?>
 	
-			</div>
+			</section>
 		</div>
-		<div class='footer'>			
-		</div>	
+		<footer>			
+		</footer>	
 	</body>
 </html>
